@@ -1,102 +1,114 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Sign Up Signin Form Template Example</title>
-  <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
 <html lang="en">
 <head>
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RR INDIA</title>
+  
+  <style>
+    .theform{
+      text-align:left;
+      font-size:20px;
+      background-color: transparent;
+      border-color:aliceblue;
+      margin-top:20px;
+      width:400px;
+      border-radius:30px;
+      color:rgb(22, 129, 156);
+      padding:13px;
+    }
+    ::placeholder{
+      color:rgb(201, 208, 213);
+    }
+    button{
+      color:white;
+      background-color:rgb(33, 194, 33);
+      width:130px;
+      height:40px;
+      border-radius:5px;
+      font-size:25px;
 
+    }
+    button:hover{
+      background-color:red;
+      color:blueviolet;
+    }
+    button:active{
+      background-color:aqua;
+      color:burlywood;
+    }
+    img{
+      width:130px;
+      height:70px;
+    }
+    .logo23 ion-icon{
+      width:30px;
+      height:35px;
+      color:rgb(120, 230, 126);
+      padding:13px;
+    }
+    .logo23 ion-icon:hover{
+      color:rgb(201, 23, 67);
+    }
+    .logo23{
+      margin-top:5px;
+      margin-left:20%;
+    }
+  </style>
+</head>
 <body>
-<div id="form">
-  <div class="container">
-    <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-md-8 col-md-offset-2">
-      <div id="userform">
-        <ul class="nav nav-tabs nav-justified" role="tablist">
-          <li class="active"><a href="#signup"  role="tab" data-toggle="tab">Sign up</a></li>
-          <li><a href="#login"  role="tab" data-toggle="tab">Log in</a></li>
-        </ul>
-        <div class="tab-content">
-          <div class="tab-pane fade active in" id="signup">
-            <h2 class="text-uppercase text-center"> Sign Up for Free</h2>
-            <form id="signup">
-              <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                  <div class="form-group">
-                    <label>First Name<span class="req">*</span> </label>
-                    <input type="text" class="form-control" id="first_name" required data-validation-required-message="Please enter your name." autocomplete="off">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                  <div class="form-group">
-                    <label> Last Name<span class="req">*</span> </label>
-                    <input type="text" class="form-control" id="last_name" required data-validation-required-message="Please enter your name." autocomplete="off">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group">
-                <label> Your Email<span class="req">*</span> </label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
-                <p class="help-block text-danger"></p>
-              </div>
-              <div class="form-group">
-                <label> Your Phone<span class="req">*</span> </label>
-                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number." autocomplete="off">
-                <p class="help-block text-danger"></p>
-              </div>
-              <div class="form-group">
-                <label> Password<span class="req">*</span> </label>
-                <input type="password" class="form-control" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
-                <p class="help-block text-danger"></p>
-              </div>
-              <div class="mrgn-30-top">
-                <button type="submit" class="btn btn-larger btn-block"/>
-                Sign up
-                </button>
-              </div>
-            </form>
-          </div>
-          <div class="tab-pane fade in" id="login">
-            <h2 class="text-uppercase text-center"> Log in</h2>
-            <form id="login">
-              <div class="form-group">
-                <label> Your Email<span class="req">*</span> </label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." autocomplete="off">
-                <p class="help-block text-danger"></p>
-              </div>
-              <div class="form-group">
-                <label> Password<span class="req">*</span> </label>
-                <input type="password" class="form-control" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
-                <p class="help-block text-danger"></p>
-              </div>
-              <div class="mrgn-30-top">
-               <a href="RAJ.html"> <button type="submit" class="btn btn-larger btn-block"/>
-                Log in
-                 </button></a>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- /.container --> 
-</div>
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</body>
-<!-- partial -->
-  <script  src="C:\Users\LENOVO\Downloads\project\res\script.js"></script>
+  <header>
+    <a href="clgpro.html"><img src="images/Abishek_logo-removebg-preview.png" alt="ak"></a>
+  </header>
+  
+  <fieldset style="margin-top:100px;margin-left:30%;margin-right:30%;height:450px;width:500px;border-radius:20px;text-align:center;">
 
+  <h1 style="text-align:center;color:whitesmoke;font-size:40px;">LOGIN</h1>
+  <br>
+  <input type="text" id="username" class="theform" required placeholder="Username or Email">
+  <br>
+  <input type="password" id="first" class="theform" required placeholder="Confirm Password">
+  <br>
+  <input type="password" id="second" style="margin-bottom:20px;" class="theform" required placeholder="Re-enter Password">
+  <br>
+  <button type="button" onclick="f() ">Login</button>
+  <br>
+  <div  class="logo23" style="display:flex;">
+  <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+  <a href=""><ion-icon name="logo-Google"></ion-icon></a>
+  <a href=""><ion-icon name="logo-Facebook"></ion-icon></a>
+  <a href=""><ion-icon name="logo-Github"></ion-icon></a>
+  <a href=""><ion-icon name="logo-Linkedin"></ion-icon></a>
+</div>
+</fieldset>
+  <script>
+    function f()
+    {
+      a=document.getElementById("first").value;
+      b=document.getElementById("second").value;
+      c=document.getElementById("username").value;
+      if (a==b && a.trim()!="" && b.trim()!="" && c.trim()!="")
+        {
+          window.alert("Login Successful");
+          window.location.href="RAJ.HTML";
+          return true;
+        }
+        else if (c.trim() === "")
+        {
+          window.alert("Please enter username");
+        }
+      else if (a.trim() === "" || b.trim() === "" ) {
+        window.alert("Please enter both passwords");
+          return false;
+        }
+
+      else{
+        window.alert("Passwords must be same");
+        return false;
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
